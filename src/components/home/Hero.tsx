@@ -26,7 +26,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-primary via-secondary to-tertiary bg-clip-text text-transparent mb-6"
             >
-              MERN Stack
+              Full Stack
               <br />
               <motion.span
                 initial={{ opacity: 0, y: 20 }}
