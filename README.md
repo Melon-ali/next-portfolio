@@ -141,7 +141,7 @@ app/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Melon-ali/nextjs-portfolio
+git clone https://github.com/Melon-ali/next-portfolio
 cd nextjs-portfolio
 ```
 
