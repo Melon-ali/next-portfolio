@@ -43,9 +43,9 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 1.1 }}
               className="text-xl text-content/80 mb-8"
             >
-              Hello! I am Melon Ali, a passionate React.JS, Node.JS and Next.JS
+              Hello! I am Rubel Ali, a passionate React.JS, Node.JS and Next.JS
               developer. I develop web applications. My core skill is based on
-              JavaScript and I love to do most of the things using JavaScript.
+              JavaScript, TypeScript and I love to do most of the things using JavaScript And TypeScript.
             </motion.p>
             <div className="flex gap-4">
               <motion.div

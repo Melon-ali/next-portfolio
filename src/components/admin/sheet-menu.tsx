@@ -32,7 +32,7 @@ export function SheetMenu() {
         <SheetHeader>
           <button className="flex justify-center items-center pb-2 pt-1">
             <Link href="/" className="flex items-center justify-center gap-4">
-              <SheetTitle className="font-bold text-lg">Melon Ali</SheetTitle>
+              <SheetTitle className="font-bold text-lg">Rubel Ali</SheetTitle>
               <SheetDescription className="sr-only"></SheetDescription>
             </Link>
           </button>

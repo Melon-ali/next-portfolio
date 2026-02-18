@@ -97,7 +97,7 @@ export default function Footer() {
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center">
             <p className="text-gray-400">
-              &copy; {new Date().getFullYear()} Melon Ali. All rights reserved
+              &copy; {new Date().getFullYear()} Rubel Ali. All rights reserved
             </p>
           </div>
         </div>

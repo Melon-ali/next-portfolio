@@ -3,13 +3,18 @@ import Link from 'next/link'
 import React, { useState, ReactNode } from 'react'
 
 // icons
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from 'react-icons/fa'
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaPassport } from 'react-icons/fa'
 
 import {
   SiNextdotjs,
   SiTailwindcss,
   SiExpress,
   SiMongodb,
+  SiTypescript,
+  SiPostgresql,
+  SiNestjs,
+  SiPrisma,
+  SiSocketdotio,
 } from 'react-icons/si'
 
 // framer motion
@@ -40,21 +45,32 @@ const aboutData: AboutSection[] = [
           <FaHtml5 key="html5" />,
           <FaCss3 key="css3" />,
           <FaJs key="js" />,
+          <SiTypescript key="typescript" />,
           <FaReact key="react" />,
           <SiNextdotjs key="nextjs" />,
           <SiTailwindcss key="tailwind" />,
           <FaNodeJs key="nodejs" />,
           <SiExpress key="express" />,
+          <SiNestjs key="nestjs" />,
+          <SiPrisma key="prisma" />,
+          <SiPostgresql key="postgresql" />,
           <SiMongodb key="mongodb" />,
+          <SiSocketdotio key="websocket" />,
+          <FaPassport key="passportjs" />,
         ],
       },
       {
-        title: 'React js, Express js, Node Js and Mongodb',
+        title: 'React js, Express js, Node Js, MongoDB, PostgreSQL',
         icons: [
           <FaReact key="react" />,
           <SiExpress key="express" />,
           <FaNodeJs key="nodejs" />,
+          <SiNestjs key="nestjs" />,
+          <SiPrisma key="prisma" />,
+          <SiPostgresql key="postgresql" />,
           <SiMongodb key="mongodb" />,
+          <SiSocketdotio key="websocket" />,
+          <FaPassport key="passportjs" />,
         ],
       },
     ],
@@ -75,6 +91,10 @@ const aboutData: AboutSection[] = [
         title: 'Web Developer - Zero Point Computing',
         stage: '2023 Jun - 2024',
       },
+      {
+        title: 'Backend Developer — Aether Zen, Dhaka',
+        stage: 'Mar 2025 - Sep 2025',
+      },
     ],
   },
   {
@@ -89,7 +109,7 @@ const aboutData: AboutSection[] = [
         stage: 'Programing Hero - Level-1, Batch-4',
       },
       {
-        title: 'Full Stack Developer ( MERN )',
+        title: 'Full Stack Developer Course',
         stage: 'Programing Hero - Level-2, Batch-4',
       },
     ],

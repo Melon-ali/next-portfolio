@@ -60,13 +60,13 @@ export default function Navbar({ session }: { session: UserProps | null }) {
                 <div className="absolute inset-[2px] bg-background rounded-full flex items-center justify-center">
                   {' '}
                   <span className="font-bold bg-gradient-to-r from-primary to-tertiary bg-clip-text text-transparent">
-                    MA
+                    RA
                   </span>
                 </div>
               </div>
 
               <span className="font-semibold text-content/90 group-hover:text-primary transition-colors">
-                Melon Ali
+                Rubel Ali
               </span>
             </motion.div>
           </Link>
