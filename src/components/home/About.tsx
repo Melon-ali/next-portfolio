@@ -22,7 +22,7 @@ import { motion } from 'framer-motion'
 
 // counter
 import CountUp from 'react-countup'
-import { fadeIn } from '@/variants'
+// import { fadeIn } from '@/variants'
 
 interface InfoItem {
   title: string
@@ -142,7 +142,7 @@ const About: React.FC = () => {
       <div className=" h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
-            variants={fadeIn('right', 0.2)}
+            // variants={fadeIn('right', 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -152,7 +152,7 @@ const About: React.FC = () => {
             magnificent designs.
           </motion.h2>
           <motion.p
-            variants={fadeIn('right', 0.4)}
+            // variants={fadeIn('right', 0.4)}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -163,7 +163,7 @@ const About: React.FC = () => {
             collaborated on digital products for business and consumer use.
           </motion.p>
           <motion.div
-            variants={fadeIn('right', 0.6)}
+            // variants={fadeIn('right', 0.6)}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -194,7 +194,7 @@ const About: React.FC = () => {
           </motion.div>
         </div>
         <motion.div
-          variants={fadeIn('left', 0.4)}
+          // variants={fadeIn('left', 0.4)}
           initial="hidden"
           animate="show"
           exit="hidden"

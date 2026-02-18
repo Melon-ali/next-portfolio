@@ -26,8 +26,8 @@ type UserProps = {
 }
 
 const socialLinks = {
-  github: 'https://github.com/Melon-ali',
-  linkeding: 'https://www.linkedin.com/in/melon-ali',
+  github: 'https://github.com/Rubel-ali',
+  linkeding: 'https://www.linkedin.com/in/rubel300-ali',
   facebook: 'https://www.facebook.com/md.melon.581',
 }
 
